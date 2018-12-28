@@ -1,0 +1,31 @@
+.container {
+  display: grid;
+  grid-row-gap: 50px;
+  grid-template-columns: auto auto auto;
+}
+
+.item1 {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  margin-left: 50px;
+}
+
+.item2 {
+  grid-column-start: 3;
+  grid-column-end: 3;
+}
+
+.sidebar {
+  text-align: center;
+  grid-column-start: 1;
+  grid-column-end: 4;
+  margin-top: 30px;
+}
+
+/* .iframe {
+  text-align: center;
+} */
+
+.app {
+  background-color: #AFC9CB;
+}
